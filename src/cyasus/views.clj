@@ -18,7 +18,7 @@
   ([s abs]
    (html/do->
      (html/set-attr :href s)
-     (if abs (html/content (abs-url s)) (html/content s)))))
+     (html/content ((if abs abs-url identity) s)))))
 
 ; Templates and snippets
 ; Homepage snippet. Takes optional invalids key and URL to avoid re-entering.

@@ -1,7 +1,7 @@
 ; Copyright (c) 2012 Fabien Bourgeois
 ; See the file LICENSE for copying permission.
 
-(ns cyasus-ring.config)
+(ns cyasus.config)
 
 (def params {:TITLE "CYASUS"
              :SUBTITLE "Clojure Yet Another Stupid Url Shortener"
